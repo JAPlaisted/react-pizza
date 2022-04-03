@@ -3,10 +3,10 @@ import "../App.css";
 import $ from "jquery";
 
 function Banner() {
-  $(document).on("swipe", function () {
+  $(document).on("scrollstart", function () {
     $("h2").css("left", Math.max(147.5 - 0.2 * window.scrollY) + "vw");
   });
-  $(document).on("swipe", function () {
+  $(document).on("scrollstart", function () {
     $("h3").css("right", Math.max(147.5 - 0.2 * window.scrollY) + "vw");
   });
   return (
