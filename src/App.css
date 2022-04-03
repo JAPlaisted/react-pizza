@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 /* Color Palette */
 :root {
   --color-primary: #74c3d5;
@@ -25,7 +23,6 @@ a {
   text-decoration: none;
   color: var(--color-headings);
 }
-
 
 /* Typography */
 html {
@@ -227,11 +224,13 @@ figcaption {
   transform: rotate(2.5deg);
   height: 16rem;
 }
+
 .scrolling-text {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 h2 {
   margin: 0;
   padding: 0;
