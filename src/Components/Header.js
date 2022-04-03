@@ -14,6 +14,7 @@ function Header() {
               <a
                 href="https://www.doordash.com/store/pacifica-pizza-fresno-517927/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Order
               </a>
