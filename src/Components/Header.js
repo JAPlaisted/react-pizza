@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -21,7 +22,7 @@ function Header() {
             </li>
 
             <li>
-              <a href="contact.html">Contact</a>
+              <Link to="/ContactUs">Contact</Link>
             </li>
           </ol>
         </nav>

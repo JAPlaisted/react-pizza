@@ -233,7 +233,7 @@ figcaption {
     overflow-x: hidden;
   }
   
-  h2 {
+  .scrolling-text > h2 {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -244,7 +244,7 @@ figcaption {
     left: 100vw;
   }
   
-  h3 {
+  .scrolling-text > h3 {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -353,4 +353,31 @@ figcaption {
 
 @media screen and (min-width: 1600px) {
 
+}
+
+/* Contact Page */
+
+.contactUs {
+  background-color: var(--color-primary);
+  height: 100vh;
+}
+
+.contact2 {
+  text-align: center;
+  color: var(--color-headings);
+  font-size: 4rem;
+  margin: 8rem;
+  cursor: pointer;
+}
+
+.contactUs > a {
+  color: whitesmoke;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact2 > h2 {
+    padding: 1rem;
+  }
 }
