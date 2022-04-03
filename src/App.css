@@ -1,38 +1,344 @@
-.App {
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Color Palette */
+:root {
+  --color-primary: #74c3d5;
+  --color-secondary: #faf092;
+  --color-accent: #ed1c23a9;
+  --color-headings: whitesmoke;
+  --color-headings-2: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #433d5c;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-headings);
+}
+
+
+/* Typography */
+html {
+  font-size: 62.5%;
+  background-color: var(--color-headings);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Header */
+.header {
+  background-color: var(--color-primary);
+}
+
+nav > ol,
+nav > ol > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+
+nav > ol > li > a {
+  font-size: 2rem;
+  color: var(--color-headings);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  nav > ol > li > a {
+    font-size: 2rem;
+    color: var(--color-headings);
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav > ol > li > a {
+    font-size: 4rem;
+    color: var(--color-headings);
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav > ol > li > a {
+    font-size: 4rem;
+    color: var(--color-headings);
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  nav > ol > li > a {
+    font-size: 5rem;
+    color: var(--color-headings);
+    text-decoration: none;
+  }
+}
+
+figure > * {
+  margin: 0 auto;
+  display: block;
+}
+
+figcaption {
+  color: var(--color-headings);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .logo {
+    height: 250px;
+  }
+}
+
+/* Menu */
+
+.pizza {
+  height: 200px;
+  position: fixed;
+  left: -10vh;
+  top: 40%;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .pizza {
+    height: 300px;
+    position: fixed;
+    left: -5vh;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pizza {
+    height: 400px;
+    position: fixed;
+    left: -10vh;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pizza {
+    height: 600px;
+    position: fixed;
+    left: -20vh;
+    top: 60%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .pizza {
+    height: 800px;
+    position: fixed;
+    left: -5vh;
+    top: 55%;
+    z-index: -1;
+  }
+}
+
+.menu {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu > ul > li {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--color-headings);
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .menu > ul > li {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .menu > ul > li {
+    font-size: 4rem;
+  }
+}
+
+.menu > ul > li > a:hover {
+  color: var(--color-secondary);
+}
+
+/* Banner */
+
+.banner {
+  margin-top: 1rem;
+  padding: 3rem;
+  font-size: 8rem;
+  background-color: var(--color-headings);
+  transform: rotate(2.5deg);
+  height: 16rem;
+}
+.scrolling-text {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: fixed;
+  top: 50%;
+  color: var(--color-primary);
+  white-space: nowrap;
+  left: 100vw;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-75%);
+  white-space: nowrap;
+  color: var(--color-primary);
+  right: 100vw;
+}
+
+/* Contact */
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.contact {
+  margin: 3rem;
+  flex-direction: column;
+  padding: 12rem;
+  justify-content: space-between;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.map-figure {
+  margin-top: 6rem;
+}
+
+.map-figure > p {
+  color: var(--color-body-darker);
+  font-size: 2.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.map {
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  box-shadow: 20px 20px 3px #0a0a0a2c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (min-width: 768px) {
+.map {
+  height: 300px;
+  width: 400px;
+}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Footer */
+
+.footer {
+  height: 20vh;
+  background-color: var(--color-body-darker);
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 13rem;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-text {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 90%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1600px) {
+
 }
