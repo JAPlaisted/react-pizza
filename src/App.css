@@ -216,43 +216,53 @@ figcaption {
 
 /* Banner */
 
+@media screen and (min-width: 768px) {
+
+  .banner {
+    margin-top: 1rem;
+    padding: 3rem;
+    font-size: 8rem;
+    background-color: var(--color-headings);
+    transform: rotate(2.5deg);
+    height: 16rem;
+  }
+  
+  .scrolling-text {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: fixed;
+    top: 50%;
+    color: var(--color-primary);
+    white-space: nowrap;
+    left: 100vw;
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-75%);
+    white-space: nowrap;
+    color: var(--color-primary);
+    right: 100vw;
+  }
+}
+
 .banner {
-  margin-top: 1rem;
-  padding: 3rem;
-  font-size: 8rem;
-  background-color: var(--color-headings);
-  transform: rotate(2.5deg);
-  height: 16rem;
+ display: none;
 }
 
-.scrolling-text {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 
-h2 {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  position: fixed;
-  top: 50%;
-  color: var(--color-primary);
-  white-space: nowrap;
-  left: 100vw;
-}
 
-h3 {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  position: fixed;
-  top: 50%;
-  transform: translateY(-75%);
-  white-space: nowrap;
-  color: var(--color-primary);
-  right: 100vw;
-}
 
 /* Contact */
 
