@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import $ from "jquery";
+import $ from "jquery-mobile";
 
 function Banner() {
   $(document).on("scroll", function () {
