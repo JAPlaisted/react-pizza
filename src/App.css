@@ -21,13 +21,13 @@
 
 a {
   text-decoration: none;
-  color: var(--color-headings);
 }
 
 /* Typography */
 html {
   font-size: 62.5%;
   background-color: var(--color-headings);
+
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 }
 
 /* Header */
-.header {
+#header {
   background-color: var(--color-primary);
 }
 
@@ -193,7 +193,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: var(--color-headings);
+  color: #433d5c;;
   cursor: pointer;
   z-index: 1;
 }
@@ -280,12 +280,13 @@ figcaption {
   justify-content: space-between;
 }
 
-
-.container {
+.container,
+.menu-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 
 .map-figure {
   margin-top: 6rem;
@@ -385,3 +386,4 @@ figcaption {
     padding: 1rem;
   }
 }
+
