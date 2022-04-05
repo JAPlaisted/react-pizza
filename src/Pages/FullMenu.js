@@ -16,37 +16,37 @@ function FullMenu() {
       <nav>
         <ul>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu1">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu1">
               {" "}
               Pizza
             </a>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu2">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu2">
               {" "}
               Sandwhiches
             </a>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu3">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu3">
               {" "}
               Salad
             </a>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu4">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu4">
               {" "}
               Appetizers
             </a>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu5">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu5">
               {" "}
               Beverages
             </a>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu6">
+            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu6">
               {" "}
               Specials
             </a>

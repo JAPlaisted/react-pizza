@@ -59,6 +59,8 @@ nav > ol > li > a {
   text-decoration: none;
 }
 
+
+
 @media screen and (min-width: 768px) {
   nav > ol > li > a {
     font-size: 2rem;
@@ -132,6 +134,8 @@ figcaption {
 
 /* Menu */
 
+
+
 .pizza {
   height: 200px;
   position: fixed;
@@ -193,7 +197,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #433d5c;;
+  color: #433d5c;
   cursor: pointer;
   z-index: 1;
 }
@@ -208,6 +212,10 @@ figcaption {
   .menu > ul > li {
     font-size: 4rem;
   }
+}
+
+.menu > ul > li > a {
+  color: var(--color-headings);
 }
 
 .menu > ul > li > a:hover {
