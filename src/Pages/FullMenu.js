@@ -16,22 +16,40 @@ function FullMenu() {
       <nav>
         <ul>
           <li>
-            <a href="#hiddenMenu1"> Pizza</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu1">
+              {" "}
+              Pizza
+            </a>
           </li>
           <li>
-            <a href="#hiddenMenu2"> Sandwhiches</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu2">
+              {" "}
+              Sandwhiches
+            </a>
           </li>
           <li>
-            <a href="#hiddenMenu3"> Salad</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu3">
+              {" "}
+              Salad
+            </a>
           </li>
           <li>
-            <a href="#hiddenMenu4"> Appetizers</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu4">
+              {" "}
+              Appetizers
+            </a>
           </li>
           <li>
-            <a href="#hiddenMenu5"> Beverages</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu5">
+              {" "}
+              Beverages
+            </a>
           </li>
           <li>
-            <a href="#hiddenMenu6"> Specials</a>
+            <a href="https://magnificent-torte-aec714.netlify.app/#hiddenMenu6">
+              {" "}
+              Specials
+            </a>
           </li>
         </ul>
       </nav>
