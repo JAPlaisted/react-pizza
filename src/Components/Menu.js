@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import pizza1 from "../assets/pizza.png";
+import { HashLink } from "react-router-hash-link";
 
 function Menu() {
   return (
