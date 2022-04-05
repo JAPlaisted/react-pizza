@@ -17,7 +17,7 @@ function FullMenu() {
       <nav>
         <ul>
           <li>
-            <HashLink to="FullMenu#hiddenMenu1"> Pizza</HashLink>
+            <HashLink to="#hiddenMenu1"> Pizza</HashLink>
           </li>
           <li>
             <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu2">
