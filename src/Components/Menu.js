@@ -11,37 +11,27 @@ function Menu() {
           <li className="crumb">
             <br />
             <br />
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu1">
-              Pizza
-            </a>
+            <HashLink to="FullMenu#hiddenMenu1"> Pizza</HashLink>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu2">
-              Sandwhiches
-            </a>
+            <HashLink to="FullMenu#hiddenMenu2"> Sandwhiches</HashLink>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu3">
-              Salad
-            </a>
+            <HashLink to="FullMenu#hiddenMenu3"> Salad</HashLink>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu4">
-              Appetizers
-            </a>
+            <HashLink to="FullMenu#hiddenMenu4"> Appetizers</HashLink>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu5">
-              Beverages
-            </a>
+            <HashLink to="FullMenu#hiddenMenu5"> Beverages</HashLink>
             <br />
             <br />
           </li>
