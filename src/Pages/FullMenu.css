@@ -1,0 +1,124 @@
+
+/* Header */
+.full-menu > .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.phone {
+  padding: 0.5rem;
+}
+
+nav > ul {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+nav > ul > li > a {
+  cursor: pointer;
+  margin: 1rem;
+  font-size: 3rem;
+  color:#433d5c;
+}
+
+@media screen and (min-width: 768px) {
+  nav > ul > li {
+    cursor: pointer;
+    margin: 3rem;
+    font-size: 3rem;
+  }
+  
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+
+nav > ul > li:hover {
+  color: var(--color-secondary);
+}
+
+#hiddenMenu1,
+#hiddenMenu2,
+#hiddenMenu3,
+#hiddenMenu4,
+#hiddenMenu5,
+#hiddenMenu6 {
+  color: #918ca4;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+#hiddenMenu1 > b,
+#hiddenMenu2 > b,
+#hiddenMenu3 > b,
+#hiddenMenu4 > b,
+#hiddenMenu5 > b,
+#hiddenMenu6 > b {
+  color: #433d5c;
+}
+h2 {
+    margin-bottom: 2rem;
+    color: #433d5c;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.menu-pizza {
+  height: 100px;
+  position: fixed;
+  right: -1vh;
+  top: 20%;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-pizza {
+    height: 300px;
+    position: fixed;
+    right: -10vh;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-pizza {
+    height: 400px;
+    position: fixed;
+    right: -10vh;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-pizza {
+    height: 600px;
+    position: fixed;
+    right: -10vh;
+    top: 40%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .menu-pizza {
+    height: 800px;
+    position: fixed;
+    right: -10vh;
+    top: 40%;
+    z-index: -1;
+  }
+}

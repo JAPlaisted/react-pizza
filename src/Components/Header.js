@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-      <section className="header">
+      <section id="header">
         <nav>
           <ol>
             <li>
-              <a href="menu.html">Menu</a>
+              <Link to="/FullMenu">Menu</Link>
             </li>
             <li>
               <a

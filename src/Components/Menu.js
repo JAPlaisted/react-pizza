@@ -11,27 +11,27 @@ function Menu() {
           <li className="crumb">
             <br />
             <br />
-            <a href="menu.html">Pizza</a>
+            <a href="FullMenu#hiddenMenu1">Pizza</a>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="menu.html">Sandwhiches</a>
+            <a href="FullMenu#hiddenMenu2">Sandwhiches</a>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="menu.html">Salad</a>
+            <a href="FullMenu#hiddenMenu3">Salad</a>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="menu.html">Appetizers</a>
+            <a href="FullMenu#hiddenMenu4">Appetizers</a>
             <br />
           </li>
           <li className="crumb">
             <br />
-            <a href="menu.html">Beverages</a>
+            <a href="FullMenu#hiddenMenu5">Beverages</a>
             <br />
             <br />
           </li>
