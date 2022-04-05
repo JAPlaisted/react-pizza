@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import "../Pages/FullMenu.css";
 import pizza from "../assets/pizza-2.png";
 import phone from "../assets/phone-small.svg";
@@ -17,7 +17,7 @@ function FullMenu() {
       <nav>
         <ul>
           <li>
-            <Link to="FullMenu#hiddenMenu1"> Pizza</Link>
+            <HashLink to="FullMenu#hiddenMenu1"> Pizza</HashLink>
           </li>
           <li>
             <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu2">
