@@ -20,34 +20,19 @@ function FullMenu() {
             <HashLink to="#hiddenMenu1"> Pizza</HashLink>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu2">
-              {" "}
-              Sandwhiches
-            </a>
+            <HashLink to="#hiddenMenu2"> Sandwhiches</HashLink>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu3">
-              {" "}
-              Salad
-            </a>
+            <HashLink to="#hiddenMenu3"> Salad</HashLink>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu4">
-              {" "}
-              Appetizers
-            </a>
+            <HashLink to="#hiddenMenu4"> Appetizers</HashLink>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu5">
-              {" "}
-              Beverages
-            </a>
+            <HashLink to="#hiddenMenu5"> Beverages</HashLink>
           </li>
           <li>
-            <a href="https://magnificent-torte-aec714.netlify.app/FullMenu/#hiddenMenu6">
-              {" "}
-              Specials
-            </a>
+            <HashLink to="#hiddenMenu6"> Specials</HashLink>
           </li>
         </ul>
       </nav>
