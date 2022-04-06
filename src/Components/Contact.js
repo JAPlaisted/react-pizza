@@ -12,19 +12,19 @@ function Contact() {
     <div>
       <section class="contact">
         <div class="icons container">
-          <a href="/">
+          <a href="https://www.facebook.com/Pacifica-Pizza-151158698289170/">
             <img class="icon" src={fb} alt="FaceBook" />
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/pacifica_pizza/">
             <img class="icon" src={ig} alt="Instagram" />
           </a>
-          <a href="/">
+          <a href="https://twitter.com/pacpizzatower">
             <img class="icon" src={twitter} alt="Twitter" />
           </a>
-          <a href="/">
+          <a href="mailto: pacificapizzatower@gmail.com">
             <img class="icon" src={email} alt="Email" />
           </a>
-          <a href="/">
+          <a href="tel:+15592683494">
             <img class="icon" src={phone} alt="Phone" />
           </a>
         </div>
