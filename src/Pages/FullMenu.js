@@ -10,7 +10,7 @@ function FullMenu() {
     <div className="full-menu">
       <div class="header">
         <Link to="/"> 🡠 Back</Link>
-        <a href="https://magnificent-torte-aec714.netlify.app" class="phone">
+        <a href="tel:+15592683494" class="phone">
           <img class="icon" src={phone} alt="Phone Icon" />
         </a>
       </div>
